@@ -54,7 +54,6 @@ class Util:
             if palindrome(prime_list[i]):
                 palindrome_list.append(prime_list[i])
         return palindrome_list
-        print(palindrome_list)
 
     # Function to find dayOfWeek
     @staticmethod
@@ -77,6 +76,35 @@ class Util:
         else:
             print("Invalid Option...!!")
 
+    # Function to calculate monthlyPayment
+    @staticmethod
+    def monthlyPayment(P, Y, R):
+        n = 12 * Y
+        r = R / (12 * 100)
+        payment = (P * r) / (1 - (pow((1 + r), (-n))))
+        return payment
+
+    # Function to compute the square root of a nonnegative number
+    @staticmethod
+    def square_root(c):
+        epsilon = float(1e-15)
+        t = c
+        while abs(t - c / t) > epsilon * t:
+            t = float((c / t + t) / 2)
+        return t
+
+    # Function for Decimal to Binary Conversion
+    @staticmethod
+    def decimal_to_binary(num):
+        if num > 1:
+            Util.decimal_to_binary(num // 2)
+        print(num % 2, end=" ")
+
+    # Function for nibble swapping
+    @staticmethod
+    def nibble_Swap(num):
+        return (num & 0x0F) << 4 | (num & 0xF0) >> 4
+
 
 def palindrome(num):
     temp = num
@@ -89,4 +117,3 @@ def palindrome(num):
         return True
     else:
         return False
-        pass
