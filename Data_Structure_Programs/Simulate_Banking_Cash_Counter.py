@@ -61,7 +61,7 @@ def simulate_banking_cash_counter():
                 except ValueError:
                     print("Invalid input!!")
             if cash_balance >= amount_withdraw:
-                """Updating bamk balance"""
+                """Updating bank balance"""
                 cash_balance -= amount_withdraw
                 withdraw += amount_withdraw
                 print(f"You have successfully withdraw :{amount_withdraw}rs")
