@@ -15,7 +15,7 @@ def simulate_banking_cash_counter():
     deposit = 0
     withdraw = 0
     while True:
-        print("Welcome to the Bank Cash Counter,We have following services!! \n 1.Deposit amount!! \n 2.withdraw "
+        print("Welcome to the Banking Cash Counter,We have following services!! \n 1.Deposit amount!! \n 2.withdraw "
               "amount!! \n 3.Exit")
         while True:
             try:
