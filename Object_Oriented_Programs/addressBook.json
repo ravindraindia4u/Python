@@ -1,0 +1,31 @@
+{
+    "personalDetail": [
+        {
+            "firstname": "Ravindra ",
+            "lastName": "Kumar",
+            "address": "BTM 1st stage, Bangalore",
+            "city": "Banglore",
+            "state": "Karnatka",
+            "zip": "560029",
+            "phoneNumber": "9144908004"
+        },
+        {
+            "firstname": "Ashutosh",
+            "lastName": "Chaudhary",
+            "address": "BTM",
+            "city": "Bangalore",
+            "state": "Karnatka",
+            "zip": "560029",
+            "phoneNumber": "5864792534"
+        },
+        {
+            "firstname": "Aman",
+            "lastName": "Kumar",
+            "address": "Jharkhand",
+            "city": "Bkaro",
+            "state": "Jharkhand",
+            "zip": "213301",
+            "phoneNumber": "8751243102"
+        }
+    ]
+}
