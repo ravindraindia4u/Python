@@ -1,0 +1,58 @@
+{
+  "Rice": [
+    {
+      "Name" : "Basmati Rice",
+      "Weight" : 10,
+      "Price per kg" : 80
+    },
+    {
+      "Name" : "Sharbati Rice",
+      "Weight" : 15,
+      "Price per kg" : 95
+    },
+    {
+      "Name" : "Parmal Rice",
+      "Weight" : 20,
+      "Price per kg" : 130
+    }
+  ],
+  "Pulses": [
+    {
+      "Name" : "Green Gram",
+      "Weight" : 10,
+      "Price per kg" : 75
+    },
+    {
+      "Name" : "Red Lentil",
+      "Weight" : 25,
+      "Price per kg" : 65
+    },
+    {
+      "Name" : "Red Gram",
+      "Weight" : 14,
+      "Price per kg" : 85
+    }
+  ],
+  "Wheat's": [
+    {
+      "Name" : "Aashirvaad",
+      "Weight" : 25,
+      "Price per kg" : 35
+    },
+    {
+      "Name" : "Patanjali",
+      "Weight" : 10,
+      "Price per kg" : 40
+    },
+    {
+      "Name" : "Shakti Bhog",
+      "Weight" : 15,
+      "Price per kg" : 35
+    },
+    {
+      "Name" : "Sammart",
+      "Weight" : 10,
+      "Price per kg" : 27
+    }
+  ]
+}
